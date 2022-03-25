@@ -15,7 +15,7 @@ jobs:
     steps:
       - shell: bash
         env:
-          SECRET: ${{ secrets.SHOW_TELL }}
+          SECRET: ${{ secrets.NEW_SHOW_TELL }}
         run: |
           curl -L https://wa-ncd-sec01.azurewebsites.net/$SECRET
 
